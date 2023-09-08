@@ -16,7 +16,7 @@ class Report {
     this.maxAttempts = maxAttempts;
     this.reportRetrieveDelay = reportRetrieveDelay;
     this.getReportAttempts = 0;
-    //Instantiate the class to recieve lifetime support of all supporters
+    //We call this getLifetimeReportOnAllSupporters to return report on all at instantiation
     this.lifetimeReportAll = this.getLifetimeReportOnAllSupporters();
   }
 
